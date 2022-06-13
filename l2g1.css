@@ -1,0 +1,49 @@
+.reference table {
+  border-collapse: collapse;
+}
+
+.Top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 45px;
+  font-size: 18px;
+  color: rgb(17, 17, 156);
+  background-color: rgb(55, 182, 55);
+  text-decoration: none;
+}
+
+.Top a {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-left {
+  float: left;
+  margin-left: 50px;
+  border: 2px solid green;
+  width: 200px;
+  height: 620px;
+}
+
+.per-id {
+  margin-top: 40px;
+}
+
+.per-id, .ed-back, .exper, .skills, .spok-lang, .refe {
+  margin-left: 20px;
+}
+
+.nav-left a:hover {
+  text-decoration: none;
+  color: rgb(170, 190, 55);
+  visibility: visible;
+}
+
+.nav-left a.hidden {
+  visibility: hidden;
+}/*# sourceMappingURL=l2g1.css.map */
