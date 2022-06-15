@@ -15,7 +15,7 @@ This project has different parts in which you find about me,my educations, profi
 # Features
 1.You can call me via this portifolio
 
-2.you can send a message on whatsapp,instagram,twiter.
+2.you can send a message on whatsapp,instagram,twiter or via email.
 # Tools
 1.VS Code
 # Author
