@@ -5,7 +5,7 @@
 .Top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  height: 45px;
+  height: 65px;
   font-size: 18px;
   color: rgb(17, 17, 156);
   background-color: rgb(55, 182, 55);
@@ -15,27 +15,43 @@
 .Top a {
   text-decoration: none;
   text-align: center;
-  margin-top: 10px;
-}
-
-.nav-right {
-  float: right;
+  margin-top: 15px;
+  font-size: 25px;
 }
 
 .nav-left {
-  float: left;
-  margin-left: 50px;
-  border: 2px solid green;
+  background-color: rgb(220, 204, 204);
   width: 200px;
-  height: 620px;
+  height: 550px;
+  margin-top: 90px;
 }
 
-.per-id {
-  margin-top: 40px;
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
 }
 
-.per-id, .ed-back, .exper, .skills, .spok-lang, .refe {
-  margin-left: 20px;
+.nav-right {
+  padding-left: 15px;
+  padding-top: 20px;
+  width: 300px;
+  height: 540px;
+  background-color: rgb(143, 148, 155);
+  margin-top: 90px;
+}
+
+.my_photo {
+  margin-top: 90px;
+}
+
+.my_photo img {
+  height: 550px;
+}
+
+.nav-right p {
+  font-size: 17px;
+  color: white;
 }
 
 .nav-left a:hover {
@@ -46,4 +62,23 @@
 
 .nav-left a.hidden {
   visibility: hidden;
+}
+
+.top2 {
+  height: 40px;
+  border: 2px solid green;
+  margin-top: 10px;
+  float: right;
+}
+
+.top2 img {
+  height: 20px;
+}
+
+.per-id, .ed-back, .exper, .skills, .spok-lang, .refe {
+  margin-left: 20px;
+}
+
+.per-id {
+  padding-top: 25px;
 }/*# sourceMappingURL=l2g1.css.map */
