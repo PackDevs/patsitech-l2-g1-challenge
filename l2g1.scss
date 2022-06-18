@@ -4,35 +4,87 @@
     background-color: rgb(55, 182, 55);
     text-decoration: none;
 }
+@mixin nav-p{
+    font-size: 20px;
+    color: white;
+}
+$hover-color:rgb(13, 164, 106);
 $head-color: rgb(170, 190, 55);
 .reference table{
     border-collapse: collapse;
 }
+.top-left{
+    float:left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+.top-right a{
+    margin-right: 20px;
+}
+.top-right{
+  margin-left: 700px;
+ display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+.top-left a{
+    margin-left: 30px;
+}
+
 .Top{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     height:65px;
     @include impotant;
+    position: fixed;
+    width: 100%;
+    margin-top: -80px;
 
+}
+.top2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(12, 10, 10);
 }
 .Top a{
     text-decoration: none;
     text-align: center;
     margin-top: 15px;
     font-size: 25px;
+    
 }
 .nav-left{
-    // float:left;
     background-color: rgb(220,204,204);
     width:200px;
     height: 550px;
     margin-top: 90px;
 
 }
+.nav-left2{
+    background-color: rgb(220,204,204);
+    width:200px;
+    height: 550px;
+    margin-top: 90px;
+}
+.nav-right2{
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 1030px;
+    height: 540px;
+    background-color: rgb(143,148,155);
+    margin-top: 90px;
+}
 .middle{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px;
+    margin-top: -30px;
+}
+.middle2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 100px;
+    margin-top: -30px;
+     
 }
     
 .nav-right{
@@ -49,33 +101,48 @@ $head-color: rgb(170, 190, 55);
 }
 .my_photo img{
     height: 550px;
+    
 }
 
 .nav-right p{
-    font-size: 17px;
-    color: white;
+    font-size: 20px;
+    color: rgb(62,113,191);
+}
+.nav-right2 p{
+    @include nav-p;
 }
 
 
-.nav-left a:hover{
+.nav-left :hover a{
     text-decoration: none;
-    color:$head-color;
+    color:$hover-color;
     visibility: visible;
     
 }
-.nav-left a.hidden{
+.nav-left2 :hover a{
+    text-decoration: none;
+    color:$hover-color;
+    visibility: visible;
+}
+.nav-left2 a{
+    visibility: hidden; 
+}
+.nav-left a{
    visibility: hidden;
 }
 .top2{
-    height:40px;
-    border: 2px solid green;
-    margin-top: 10px;
-    float: right;
-    
+    height:60px;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 20px;
     
 }
+.part3{
+    background-color: rgb(12, 141, 106);
+    width: 100%;
+}
 .top2 img{
-    height: 20px;
+    height: 30px;
 }
 .per-id,.ed-back,.exper,.skills,.spok-lang,.refe{
     margin-left: 20px;
@@ -84,4 +151,6 @@ $head-color: rgb(170, 190, 55);
 .per-id{
     padding-top: 25px;
 }
+
+
 
