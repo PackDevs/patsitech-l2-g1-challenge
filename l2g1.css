@@ -1,156 +1,224 @@
-.reference table {
-  border-collapse: collapse;
+.main{background-color: rgb(109,187,166);
+}
+body{border: 3px solid green;}
+.Top{
+background-color: rgb(135,211,135);
+height: 40px;
+position: fixed;
+margin-top: -60px;
+width: 97%;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+}
+.Top1{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+background-color: rgb(135,211,135);
+height: 40px;
+position: fixed;
+margin-top: -60px;
+width: 97%;}
+.Top a{
+margin-left:10px;
+text-decoration:none;
+color:rgb(8,56,128);
+font-size: 20px;
+}
+.Top1 a{
+margin-left: 10px;
+text-decoration: none;
+color: rgb(8,56,128);
+font-size: 20px;
+}
+.top2 a{
+color: black;
+font-size:12px ;
+text-decoration: none;
+}
+.top2{display: grid;
+grid-template-columns: repeat(4,1fr);
+margin-top: 60px;
+height: 50px;
+}
+.top2 img{padding-top: 10px;
+padding-left: 10px;
+height: 30px;
+}
+.top-left{float: left;
+grid-gap: 50px;
+}
+.top-right{float: right;}
+.middle{
+display: grid;
+grid-template-columns: 1fr 2fr 2fr;
+grid-gap: 20px;
+}
+.middle2{
+display: grid;
+grid-template-columns: 1fr 4fr;
+grid-gap: 10px;
+}
+.my_photo img{
+height: 400px;
+}
+.nav-left{
+background-color: rgb(220,204,204);
+width: 200px;
+height: 500px;
+}
+.nav-left2{
+background-color: rgb(220,204,204);
+width: 200px;
+height: 400px;
+}
+.nav-left a,.nav-left2 a{
+visibility: hidden;
+}
+.nav-right2,.nav-right{
+height: 450px;
+background-color: rgb(143, 148, 155);
+}
+h2{text-align: center;}
+.nav-right2 p{
+color:rgb(37,103,202);
+padding-left: 15px;
+}
+.nav-right p{padding-left: 15px;
+color: white;
+}
+table{
+border-collapse: collapse;
+margin-left: 15px;
+}
+.per-id,.ed-back,.exper,.skills,.spok-lang,.refe{padding-left: 10px;}
+.per-id:hover a,.ed-back:hover a,.exper:hover a,.skills:hover a,.spok-lang:hover a,.refe:hover a{
+visibility: visible;
+color: green;
+text-decoration: none;
 }
 
-.top-left {
-  float: left;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 60px;
-}
 
-.top-right a {
-  margin-right: 20px;
+@media screen and (max-width:1200px){
+.main{background-color: rgb(109,187,166);
+    }
+    body{border: 3px solid green;}
+.Top{
+    background-color: rgb(135,211,135);
+    height: 40px;
+    position: fixed;
+    margin-top: -60px;
+    width: 97%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
-
-.top-right {
-  margin-left: 700px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.Top1{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+background-color: rgb(135,211,135);
+height: 40px;
+position: fixed;
+margin-top: -60px;
+width: 97%;}
+.Top a{
+    margin-left:10px;
+    text-decoration:none;
+    color:rgb(8,56,128);
+    font-size: 20px;
 }
-
-.top-left a {
-  margin-left: 30px;
+.Top1 a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(8,56,128);
+    font-size: 20px;
 }
-
-.Top {
-  height: 65px;
-  font-size: 18px;
-  color: rgb(17, 17, 156);
-  background-color: rgb(55, 182, 55);
-  text-decoration: none;
-  position: fixed;
-  width: 100%;
-  margin-top: -80px;
+.top2 a{
+    color: black;
+    font-size:12px ;
+    text-decoration: none;
 }
-
-.top2 a {
-  text-decoration: none;
-  font-size: 12px;
-  color: rgb(12, 10, 10);
+.top2{display: grid;
+grid-template-columns: repeat(4,1fr);
+margin-top: 60px;
+height: 50px;
 }
-
-.Top a {
-  text-decoration: none;
-  text-align: center;
-  margin-top: 15px;
-  font-size: 25px;
+.top2 img{padding-top: 10px;
+    padding-left: 10px;
+    height: 30px;
 }
-
-.nav-left {
-  background-color: rgb(220, 204, 204);
+.top-left{float: left;
+grid-gap: 50px;
+}
+.top-right{float: right;}
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 20px;
+}
+.middle2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+}
+.my_photo img{
+    height: 400px;
+}
+.nav-left{
+  background-color: rgb(220,204,204);
   width: 200px;
-  height: 550px;
-  margin-top: 90px;
+  height: 500px;
+}
+.nav-left2{
+    background-color: rgb(220,204,204);
+    width: 200px;
+    height: 400px;
+}
+.nav-left a,.nav-left2 a{
+    visibility: hidden;
+}
+.nav-right2,.nav-right{
+    height: 450px;
+    background-color: rgb(143, 148, 155);
+}
+h2{text-align: center;}
+.nav-right2 p{
+    color:rgb(37,103,202);
+    padding-left: 15px;
+}
+.nav-right p{padding-left: 15px;
+color: white;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 15px;
+}
+.per-id,.ed-back,.exper,.skills,.spok-lang,.refe{padding-left: 10px;}
+.per-id:hover a,.ed-back:hover a,.exper:hover a,.skills:hover a,.spok-lang:hover a,.refe:hover a{
+    visibility: visible;
+    color: green;
+    text-decoration: none;
+}
 }
 
-.nav-left2 {
-  background-color: rgb(220, 204, 204);
-  width: 200px;
-  height: 550px;
-  margin-top: 90px;
+
+@media screen and (max-width:1024){
+    .middle2{display: grid;
+    grid-template-columns: 1fr 4fr;
+grid-gap: 10px;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 10px;
+}
+.top2 img{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 20px;
+}
 }
 
-.nav-right2 {
-  padding-left: 15px;
-  padding-top: 20px;
-  width: 1030px;
-  height: 540px;
-  background-color: rgb(143, 148, 155);
-  margin-top: 90px;
-}
 
-.middle {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 100px;
-  margin-top: -30px;
-}
+@media screen and (max-width:768){
 
-.middle2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 100px;
-  margin-top: -30px;
+    
 }
-
-.nav-right {
-  padding-left: 15px;
-  padding-top: 20px;
-  width: 300px;
-  height: 540px;
-  background-color: rgb(143, 148, 155);
-  margin-top: 90px;
-}
-
-.my_photo {
-  margin-top: 90px;
-}
-
-.my_photo img {
-  height: 550px;
-}
-
-.nav-right p {
-  font-size: 20px;
-  color: rgb(62, 113, 191);
-}
-
-.nav-right2 p {
-  font-size: 20px;
-  color: white;
-}
-
-.nav-left :hover a {
-  text-decoration: none;
-  color: rgb(13, 164, 106);
-  visibility: visible;
-}
-
-.nav-left2 :hover a {
-  text-decoration: none;
-  color: rgb(13, 164, 106);
-  visibility: visible;
-}
-
-.nav-left2 a {
-  visibility: hidden;
-}
-
-.nav-left a {
-  visibility: hidden;
-}
-
-.top2 {
-  height: 60px;
-  margin-top: 80px;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.part3 {
-  background-color: rgb(12, 141, 106);
-  width: 100%;
-}
-
-.top2 img {
-  height: 30px;
-}
-
-.per-id, .ed-back, .exper, .skills, .spok-lang, .refe {
-  margin-left: 20px;
-}
-
-.per-id {
-  padding-top: 25px;
-}/*# sourceMappingURL=l2g1.css.map */
