@@ -5,7 +5,8 @@ This repository is about my portifolio where it will include my background educa
 # Project Description
 This project has different parts in which you find about me,my educations, profile,...
 # Screenshoot
-![L2G1 screenshoot](https://user-images.githubusercontent.com/105437186/174459638-5bf711d8-c955-4003-8d37-457b6d977a04.PNG)
+![L2G1 screenshoot](![image](https://user-images.githubusercontent.com/105437186/175787286-264d65b0-4442-4009-bf07-c1ff2b166c89.png)
+
 
 
 # Bwild with
