@@ -37,7 +37,7 @@
         padding-top: 20px;
     }
     .top2 img{
-        height: 30px;
+        height: 28px;
     }
     .top2{
         margin-top: 50px;
@@ -88,13 +88,14 @@ h2{
    }
    .per-id a,.ed-back a,.exper a,.skills a,.spok-lang a,.refe a{
 text-decoration: none;
-visibility: hidden;
+color:green;
+/* visibility: hidden; */
    }
    .per-id,.ed-back,.exper,.skills,.spok-lang,.refe{
     margin-left: 5px;
    }
    .per-id:hover a,.ed-back:hover a,.exper:hover a,.skills:hover a,.spok-lang:hover a,.refe:hover a{
-    color:green;
+    /* color:green; */
     visibility: visible;
    }
 }
@@ -106,6 +107,9 @@ visibility: hidden;
     }
     .Top a{
         font-size: 25px;
+    }
+    .nav-left2{
+        width: 250px;
     }
     .top2{
         display: grid;
@@ -164,5 +168,8 @@ p{font-size: 20px;
     }
     .top2 img{
         height: 40px;
+    }
+    .top2 img{
+height:25px;
     }
 }
