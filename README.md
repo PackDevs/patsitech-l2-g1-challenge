@@ -26,6 +26,6 @@ This project has different parts in which you find about me,my educations, profi
 ### TParfaite
 <parfaitetwagira@gmail.com>
 
-<https://github.com/PatsiTech/patsitech-l2-g1-challenge/blob/main/l2g1.html>
+
 
 
