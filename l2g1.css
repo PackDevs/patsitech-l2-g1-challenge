@@ -17,6 +17,10 @@
         margin-top: -50px;
         margin-left: -7px;
     }
+    .my_photo img:hover{
+        transition: 2s ease-in-out;
+       border-radius: 50%;
+    }
     .Top a{
         text-decoration: none;
         color: rgb(16,66,139);
@@ -64,6 +68,7 @@
     }
     .my_photo img{
      height: 300px;
+     transition: 2s ease-in-out;
     }
    .nav-left,.nav-left2{
     background-color: rgb(220,204,204);
