@@ -1,3 +1,4 @@
+
 @media screen and (min-width:320px){
     body{
         background-color: rgb(109,187,166);
@@ -80,25 +81,45 @@ h2{
    .nav-right2{
     background-color: rgb(143,148,155);
     width: 180px;
+    transition: 1s ease-in-out;
    }
    .nav-right{
     margin-right: 5px;
     width: 180px;
     background-color: rgb(143,148,155);
+    transition: 1s ease-in-out;
    }
    .per-id a,.ed-back a,.exper a,.skills a,.spok-lang a,.refe a{
 text-decoration: none;
 color:green;
-/* visibility: hidden; */
+transition: 1s ease-in-out;
+
    }
    .per-id,.ed-back,.exper,.skills,.spok-lang,.refe{
     margin-left: 5px;
+
    }
    .per-id:hover a,.ed-back:hover a,.exper:hover a,.skills:hover a,.spok-lang:hover a,.refe:hover a{
-    /* color:green; */
     visibility: visible;
+    background-color: whitesmoke;
+    transition: 0.1s ease-in-out;
+    border-radius: 7px;
+    margin-left: 25px;
+
    }
+   .blackb,.blackc{
+    background-color: rgb(78, 65, 65);
+    transition: 2s ease-in-out;
+   }
+   .navrighter,.navyy{
+    background-color: brown;
+    transition: 2s ease-in-out  ;
+   }
+
 }
+
+
+
 
 /* at medium screen (769px-1024px) */
 
@@ -167,9 +188,6 @@ p{font-size: 20px;
         font-size: 15px;
     }
     .top2 img{
-        height: 40px;
-    }
-    .top2 img{
-height:25px;
+     height:25px;
     }
 }
