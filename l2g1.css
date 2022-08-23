@@ -108,6 +108,11 @@ color:green;
 transition: 1s ease-in-out;
 
    }
+   #navy:hover{
+transition: 2s ease-in-out;
+transform: translateX(-10%);
+background-color: darkcyan;
+   }
    .per-id,.ed-back,.exper,.skills,.spok-lang,.refe{
     margin-left: 5px;
 
